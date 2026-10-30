@@ -1,0 +1,17 @@
+{
+    "name": "MentorCourse",
+    "rootNamespace": "MentorCourse",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "MENTOR_INPUT_SYSTEM"
+        }
+    ],
+    "autoReferenced": true
+}

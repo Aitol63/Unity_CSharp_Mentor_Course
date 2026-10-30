@@ -1,0 +1,27 @@
+# Unity, если курс открыт как проект
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+
+# Файлы Word во время редактирования
+~$*
+
+# Архивы курса
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

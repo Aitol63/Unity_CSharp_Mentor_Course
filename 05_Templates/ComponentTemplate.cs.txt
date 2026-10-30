@@ -1,0 +1,23 @@
+using UnityEngine;
+
+namespace Game
+{
+    /// <summary>Одно предложение о назначении компонента.</summary>
+    public class ComponentTemplate : MonoBehaviour
+    {
+        [Header("Settings")]
+        [SerializeField] private float _value = 1f;
+
+        private Rigidbody _rb;
+
+        // Свои ссылки
+        private void Awake() => _rb = GetComponent<Rigidbody>();
+
+        // Подписки
+        private void OnEnable() { }
+        private void OnDisable() { }
+
+        // Обращение к другим объектам
+        private void Start() { }
+    }
+}
